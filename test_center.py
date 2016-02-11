@@ -61,7 +61,7 @@ pirates_of_the_caribbean = media.Movie("Pirates Of The Caribbean",
 					 "https://www.youtube.com/watch?v=naQr0uTrH_s"
 					)
 
-thee_hundred = media.Movie("300",
+three_hundred = media.Movie("300",
 					 "300 spartan soldiers battle the Persian army.",
 					 "https://upload.wikimedia.org/wikipedia/en/5/5c/300poster.jpg",
 					 "https://www.youtube.com/watch?v=UrIbxk7idYA"
@@ -73,5 +73,10 @@ thee_hundred = media.Movie("300",
 #riddick.show_trailer()
 #pacific_rim.show_trailer()
 
-movies = [riddick, avatar, cloverfield, guardians_of_the_galaxy, pacific_rim, pitch_black, monsters_vs_aliens, pirates_of_the_caribbean, thee_hundred]
-fresh_tomatoes.open_movies_page(movies)
+#movies = [riddick, avatar, cloverfield, guardians_of_the_galaxy, pacific_rim, pitch_black, monsters_vs_aliens, pirates_of_the_caribbean, three_hundred]
+#fresh_tomatoes.open_movies_page(movies)
+
+print riddick.VALID_RATINGS
+print three_hundred.VALID_RATINGS
+print media.Movie.VALID_RATINGS
+print media.Movie.__doc__
