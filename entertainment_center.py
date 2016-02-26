@@ -14,64 +14,60 @@ import media
 import fresh_tomatoes
 
 riddick = media.Movie("Riddick",
-						"Escaped criminal Riddick is left stranded on an alien planet",
-						"https://upload.wikimedia.org/wikipedia/en/6/69/Riddick_poster.jpg",
-						"https://www.youtube.com/watch?v=zH3O-CeZckE"
-						)
+"Escaped criminal Riddick is left stranded on an alien planet",
+"https://upload.wikimedia.org/wikipedia/en/6/69/Riddick_poster.jpg",
+"https://www.youtube.com/watch?v=zH3O-CeZckE"
+)
 
 avatar = media.Movie("Avatar",
-					 "A Marine on an alien planet.",
-					 "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
-					 "https://www.youtube.com/watch?v=cRdxXPV9GNQ"
-					)
+"A Marine on an alien planet.",
+"https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
+"https://www.youtube.com/watch?v=cRdxXPV9GNQ"
+)
 
 pitch_black = media.Movie("Pitch Black",
-						"A spaceship crash lands on a planet full of bloodthirsty creatures.",
-						"https://upload.wikimedia.org/wikipedia/en/2/26/Pitch_Black_poster.JPG",
-						"https://www.youtube.com/watch?v=fIeSV4i7bxQ"
-					)
+"A spaceship crash lands on a planet full of bloodthirsty creatures.",
+"https://upload.wikimedia.org/wikipedia/en/2/26/Pitch_Black_poster.JPG",
+"https://www.youtube.com/watch?v=fIeSV4i7bxQ"
+)
 
 cloverfield = media.Movie("Cloverfield",
-					 "A monster goes rampaging through New York.",
-					 "https://upload.wikimedia.org/wikipedia/en/f/f1/Cloverfield_theatrical_poster.jpg",
-					 "https://www.youtube.com/watch?v=M1XEriXzNik"
-					)
+"A monster goes rampaging through New York.",
+"https://upload.wikimedia.org/wikipedia/en/f/f1/Cloverfield_theatrical_poster.jpg",
+"https://www.youtube.com/watch?v=M1XEriXzNik"
+)
 
 guardians_of_the_galaxy = media.Movie("Guardians Of The Galaxy",
-					 "A group of intergalactic criminals are forced to work together.",
-					 "https://upload.wikimedia.org/wikipedia/en/8/8f/GOTG-poster.jpg",
-					 "https://www.youtube.com/watch?v=d96cjJhvlMA"
-					)
+"A group of intergalactic criminals are forced to work together.",
+"https://upload.wikimedia.org/wikipedia/en/8/8f/GOTG-poster.jpg",
+"https://www.youtube.com/watch?v=d96cjJhvlMA"
+)
 
 pacific_rim = media.Movie("Pacific Rim",
-					 "A war between humankind and monstrous sea creatures..",
-					 "https://upload.wikimedia.org/wikipedia/en/f/f3/Pacific_Rim_FilmPoster.jpeg",
-					 "https://www.youtube.com/watch?v=5guMumPFBag"
-					)
+"A war between humankind and monstrous sea creatures..",
+"https://upload.wikimedia.org/wikipedia/en/f/f3/Pacific_Rim_FilmPoster.jpeg",
+"https://www.youtube.com/watch?v=5guMumPFBag"
+)
 
 monsters_vs_aliens = media.Movie("Monsters Vs Aliens",
-					 "The world's most unlikely heroes are on a mission to save the Earth.",
-					 "https://upload.wikimedia.org/wikipedia/en/7/76/Monsters-vs-aliens-poster.jpg",
-					 "https://www.youtube.com/watch?v=76XkslTbkjU"
-					)
+"The world's most unlikely heroes are on a mission to save the Earth.",
+"https://upload.wikimedia.org/wikipedia/en/7/76/Monsters-vs-aliens-poster.jpg",
+"https://www.youtube.com/watch?v=76XkslTbkjU"
+)
 
 pirates_of_the_caribbean = media.Movie("Pirates Of The Caribbean",
-					 "The world's most unlikely heroes are on a mission to save the Earth.",
-					 "https://upload.wikimedia.org/wikipedia/en/0/0e/Pirates_of_the_Caribbean_movie.jpg",
-					 "https://www.youtube.com/watch?v=naQr0uTrH_s"
-					)
+"Blacksmith Will Turner teams up with eccentric pirate \"Captain\" Jack Sparrow.",
+"https://upload.wikimedia.org/wikipedia/en/0/0e/Pirates_of_the_Caribbean_movie.jpg",
+"https://www.youtube.com/watch?v=naQr0uTrH_s"
+)
 
 thee_hundred = media.Movie("300",
-					 "300 spartan soldiers battle the Persian army.",
-					 "https://upload.wikimedia.org/wikipedia/en/5/5c/300poster.jpg",
-					 "https://www.youtube.com/watch?v=UrIbxk7idYA"
-					)
+"300 spartan soldiers battle the Persian army.",
+"https://upload.wikimedia.org/wikipedia/en/5/5c/300poster.jpg",
+"https://www.youtube.com/watch?v=UrIbxk7idYA"
+)
 
 
-
-#avatar.show_trailer()
-#riddick.show_trailer()
-#pacific_rim.show_trailer()
 
 movies = [riddick, avatar, cloverfield, guardians_of_the_galaxy, pacific_rim, pitch_black, monsters_vs_aliens, pirates_of_the_caribbean, thee_hundred]
 fresh_tomatoes.open_movies_page(movies)
