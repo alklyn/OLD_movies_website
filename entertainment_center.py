@@ -7,6 +7,12 @@
 
 # After you run this code, open the file fresh_tomatoes.html to
 # see your webpage!
+# Lesson 3.4: Make Classes
+# Mini-Project: Movies Website
+
+# In this file, you will define instances of the class Movie defined
+# in media.py. After you follow along with Kunal, make some instances
+# of your own!
 
 # https://www.udacity.com/course/viewer#!/c-nd000/l-4185678656/e-991358856/m-1013629064
 
@@ -23,12 +29,6 @@ avatar = media.Movie("Avatar",
 "A Marine on an alien planet.",
 "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
 "https://www.youtube.com/watch?v=cRdxXPV9GNQ"
-)
-
-pitch_black = media.Movie("Pitch Black",
-"A spaceship crash lands on a planet full of bloodthirsty creatures.",
-"https://upload.wikimedia.org/wikipedia/en/2/26/Pitch_Black_poster.JPG",
-"https://www.youtube.com/watch?v=fIeSV4i7bxQ"
 )
 
 cloverfield = media.Movie("Cloverfield",
@@ -49,18 +49,6 @@ pacific_rim = media.Movie("Pacific Rim",
 "https://www.youtube.com/watch?v=5guMumPFBag"
 )
 
-monsters_vs_aliens = media.Movie("Monsters Vs Aliens",
-"The world's most unlikely heroes are on a mission to save the Earth.",
-"https://upload.wikimedia.org/wikipedia/en/7/76/Monsters-vs-aliens-poster.jpg",
-"https://www.youtube.com/watch?v=76XkslTbkjU"
-)
-
-pirates_of_the_caribbean = media.Movie("Pirates Of The Caribbean",
-"Blacksmith Will Turner teams up with eccentric pirate \"Captain\" Jack Sparrow.",
-"https://upload.wikimedia.org/wikipedia/en/0/0e/Pirates_of_the_Caribbean_movie.jpg",
-"https://www.youtube.com/watch?v=naQr0uTrH_s"
-)
-
 thee_hundred = media.Movie("300",
 "300 spartan soldiers battle the Persian army.",
 "https://upload.wikimedia.org/wikipedia/en/5/5c/300poster.jpg",
@@ -69,5 +57,5 @@ thee_hundred = media.Movie("300",
 
 
 
-movies = [riddick, avatar, cloverfield, guardians_of_the_galaxy, pacific_rim, pitch_black, monsters_vs_aliens, pirates_of_the_caribbean, thee_hundred]
+movies = [riddick, avatar, cloverfield, guardians_of_the_galaxy, pacific_rim, thee_hundred]
 fresh_tomatoes.open_movies_page(movies)
