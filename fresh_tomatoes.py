@@ -40,7 +40,7 @@ main_page_head = '''
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #EEE;
+            background-color: #BBBBBB;
             cursor: pointer;
         }
         .scale-media {
@@ -57,8 +57,21 @@ main_page_head = '''
             background-color: white;
         }
         .movie-info {
+            visibility: hidden;
             border: solid blue;
-            float: right;
+            float: center;
+        }
+        .movie-tile:hover > .movie-info {
+            visibility: visible;
+        }
+        
+        .info-field {
+            float: left;
+            width: 50%;
+        }
+        .info-value {
+            text-align: center;
+            margin-left: 50%;
         }
     </style>
     <script type="text/javascript" charset="utf-8">
@@ -130,8 +143,12 @@ movie_tile_content = '''
     <img src="{poster_image_url}" width="220" height="342">
     <h2>{movie_title}</h2>
     <div class="movie-info">
-        Release date        {release_date}<br>
-        Starring            ???
+        <div class="info-field">
+            Release date        
+        </div>
+        <div class="info-value">
+            {release_date}<br>
+        </div>
     </div>
 </div>
 '''

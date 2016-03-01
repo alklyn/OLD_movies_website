@@ -34,7 +34,7 @@
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #EEE;
+            background-color: #BBBBBB;
             cursor: pointer;
         }
         .scale-media {
@@ -51,8 +51,21 @@
             background-color: white;
         }
         .movie-info {
+            visibility: hidden;
             border: solid blue;
-            float: right;
+            float: center;
+        }
+        .movie-tile:hover > .movie-info {
+            visibility: visible;
+        }
+        
+        .info-field {
+            float: left;
+            width: 50%;
+        }
+        .info-value {
+            text-align: center;
+            margin-left: 50%;
         }
     </style>
     <script type="text/javascript" charset="utf-8">
@@ -112,8 +125,12 @@
     <img src="https://upload.wikimedia.org/wikipedia/en/6/69/Riddick_poster.jpg" width="220" height="342">
     <h2>Riddick</h2>
     <div class="movie-info">
-        Release date        September 4, 2013<br>
-        Starring            ???
+        <div class="info-field">
+            Release date        
+        </div>
+        <div class="info-value">
+            September 4, 2013<br>
+        </div>
     </div>
 </div>
 
@@ -121,8 +138,12 @@
     <img src="https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg" width="220" height="342">
     <h2>Avatar</h2>
     <div class="movie-info">
-        Release date        December 18, 2009<br>
-        Starring            ???
+        <div class="info-field">
+            Release date        
+        </div>
+        <div class="info-value">
+            December 18, 2009<br>
+        </div>
     </div>
 </div>
 
@@ -130,8 +151,12 @@
     <img src="https://upload.wikimedia.org/wikipedia/en/f/f1/Cloverfield_theatrical_poster.jpg" width="220" height="342">
     <h2>Cloverfield</h2>
     <div class="movie-info">
-        Release date        January 18, 2008<br>
-        Starring            ???
+        <div class="info-field">
+            Release date        
+        </div>
+        <div class="info-value">
+            January 18, 2008<br>
+        </div>
     </div>
 </div>
 
