@@ -66,25 +66,56 @@ cloverfield = media.Movie("Cloverfield",
 )
 
 
-#guardians_of_the_galaxy = media.Movie("Guardians Of The Galaxy",
-#"A group of intergalactic criminals are forced to work together.",
-#"https://upload.wikimedia.org/wikipedia/en/8/8f/GOTG-poster.jpg",
-#"https://www.youtube.com/watch?v=d96cjJhvlMA"
-#)
+guardians_of_the_galaxy = media.Movie("Guardians Of The Galaxy",
+"A group of intergalactic criminals are forced to work together.",
+"https://upload.wikimedia.org/wikipedia/en/8/8f/GOTG-poster.jpg",
+"https://www.youtube.com/watch?v=d96cjJhvlMA",
+"August 1, 2014",
+[
+"Chris Pratt",
+"Zoe Saldana",
+"Dave Bautista",
+"Vin Diesel",
+"Bradley Cooper",
+"Lee Pace",
+"Michael Rooker",
+"Karen Gillan",
+"Djimon Hounsou",
+"John C. Reilly",
+"Glenn Close",
+"Benicio del Toro"
+]
+)
 
-#pacific_rim = media.Movie("Pacific Rim",
-#"A war between humankind and monstrous sea creatures..",
-#"https://upload.wikimedia.org/wikipedia/en/f/f3/Pacific_Rim_FilmPoster.jpeg",
-#"https://www.youtube.com/watch?v=5guMumPFBag"
-#)
+pacific_rim = media.Movie("Pacific Rim",
+"A war between humankind and monstrous sea creatures..",
+"https://upload.wikimedia.org/wikipedia/en/f/f3/Pacific_Rim_FilmPoster.jpeg",
+"https://www.youtube.com/watch?v=5guMumPFBag",
+"July 12, 2013",
+[
+"Charlie Hunnam",
+"Idris Elba",
+"Rinko Kikuchi",
+"Charlie Day",
+"Ron Perlman",
+]
+)
 
-#thee_hundred = media.Movie("300",
-#"300 spartan soldiers battle the Persian army.",
-#"https://upload.wikimedia.org/wikipedia/en/5/5c/300poster.jpg",
-#"https://www.youtube.com/watch?v=UrIbxk7idYA"
-#)
+three_hundred = media.Movie("300",
+"300 spartan soldiers battle the Persian army.",
+"https://upload.wikimedia.org/wikipedia/en/5/5c/300poster.jpg",
+"https://www.youtube.com/watch?v=UrIbxk7idYA",
+"March 9, 2007",
+[
+"Gerard Butler",
+"Lena Headey",
+"David Wenham"
+"Dominic West"
+"Rodrigo Santoro"
+]
+)
 
 
 
-movies = [riddick, avatar, cloverfield]
+movies = [riddick, avatar, cloverfield, guardians_of_the_galaxy, pacific_rim, three_hundred]
 fresh_tomatoes.open_movies_page(movies)

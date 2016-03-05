@@ -58,20 +58,18 @@ main_page_head = '''
         }
         .movie-info {
             visibility: hidden;
-            border: solid blue;
             float: center;
+            display: flex;
         }
         .movie-tile:hover > .movie-info {
             visibility: visible;
         }
         
         .info-field {
-            float: left;
             width: 50%;
         }
         .info-value {
-            text-align: center;
-            margin-left: 50%;
+             width: 50%;
         }
     </style>
     <script type="text/javascript" charset="utf-8">
