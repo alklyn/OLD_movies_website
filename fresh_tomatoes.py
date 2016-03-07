@@ -57,12 +57,14 @@ main_page_head = '''
             background-color: white;
         }
         .movie-info {
-            visibility: hidden;
-            float: center;
+            position: absolute;
+            left: -10000px;
             display: flex;
+            text-align: left;
         }
         .movie-tile:hover > .movie-info {
-            visibility: visible;
+            position: relative;
+            left: auto;
         }
         
         .info-field {
