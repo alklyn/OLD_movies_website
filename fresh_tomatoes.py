@@ -145,11 +145,22 @@ movie_tile_content = '''
             Release date        
         </div>
         <div class="info-value">
-            {release_date}<br>
+            {release_date}
+        </div>
+    </div>
+    <div class="movie-info">
+        <div class="info-field">
+            Starring        
+        </div>
+        <div class="info-value">
+            <ul>
+                {starring}
+            </ul>
         </div>
     </div>
 </div>
 '''
+
 
 def create_movie_tiles_content(movies):
     # The HTML content for this section of the page
@@ -168,9 +179,18 @@ def create_movie_tiles_content(movies):
             movie_title = movie.title,
             poster_image_url = movie.poster_image_url,
             trailer_youtube_id = trailer_youtube_id,
-            release_date = movie.release_date
+            release_date = movie.release_date,
+            starring = add_actor_info(movie.actors)
         )
     return content
+
+def add_actor_info(actors):
+    actor_info = ''
+    for actor in actors:
+        actor_info += '<li>' + actor + '</li>'
+        
+    return actor_info
+    
 
 
 def open_movies_page(movies):

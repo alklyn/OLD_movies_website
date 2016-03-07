@@ -109,8 +109,8 @@ three_hundred = media.Movie("300",
 [
 "Gerard Butler",
 "Lena Headey",
-"David Wenham"
-"Dominic West"
+"David Wenham",
+"Dominic West",
 "Rodrigo Santoro"
 ]
 )
